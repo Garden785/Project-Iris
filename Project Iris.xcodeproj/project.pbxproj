@@ -10,7 +10,9 @@
 		E20406BF2AE3A0FF00A740B2 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20406BE2AE3A0FF00A740B2 /* PasscodeView.swift */; };
 		E20406C12AE3A62600A740B2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20406C02AE3A62600A740B2 /* SettingsView.swift */; };
 		E20406C32AE3A83000A740B2 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20406C22AE3A83000A740B2 /* HistoryView.swift */; };
-		E29E8C0F2AE3917B007019F5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E29E8C112AE3917B007019F5 /* Localizable.strings */; };
+		E25EA8312B6BEC0B00BFEC6E /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25EA8302B6BEC0B00BFEC6E /* BookmarksView.swift */; };
+		E25EA8332B6C013500BFEC6E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E25EA8322B6C013500BFEC6E /* Localizable.xcstrings */; };
+		E25EA8352B6C028200BFEC6E /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25EA8342B6C028200BFEC6E /* AboutView.swift */; };
 		E2B2A4E92AE16A4C005E73AB /* Project Iris Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E2B2A4E82AE16A4C005E73AB /* Project Iris Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E2B2A4EE2AE16A4C005E73AB /* Project_IrisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B2A4ED2AE16A4C005E73AB /* Project_IrisApp.swift */; };
 		E2B2A4F02AE16A4C005E73AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B2A4EF2AE16A4C005E73AB /* ContentView.swift */; };
@@ -63,8 +65,9 @@
 		E20406BE2AE3A0FF00A740B2 /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
 		E20406C02AE3A62600A740B2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E20406C22AE3A83000A740B2 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
-		E29E8C102AE3917B007019F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		E29E8C122AE3918F007019F5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E25EA8302B6BEC0B00BFEC6E /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
+		E25EA8322B6C013500BFEC6E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		E25EA8342B6C028200BFEC6E /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		E2B2A4E22AE16A4C005E73AB /* Project Iris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Iris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B2A4E82AE16A4C005E73AB /* Project Iris Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Iris Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B2A4ED2AE16A4C005E73AB /* Project_IrisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_IrisApp.swift; sourceTree = "<group>"; };
@@ -131,8 +134,10 @@
 				E2B2A4EF2AE16A4C005E73AB /* ContentView.swift */,
 				E20406C02AE3A62600A740B2 /* SettingsView.swift */,
 				E20406BE2AE3A0FF00A740B2 /* PasscodeView.swift */,
+				E25EA8342B6C028200BFEC6E /* AboutView.swift */,
 				E20406C22AE3A83000A740B2 /* HistoryView.swift */,
-				E29E8C112AE3917B007019F5 /* Localizable.strings */,
+				E25EA8302B6BEC0B00BFEC6E /* BookmarksView.swift */,
+				E25EA8322B6C013500BFEC6E /* Localizable.xcstrings */,
 				E2B2A4F12AE16A4D005E73AB /* Assets.xcassets */,
 				E2B2A4F32AE16A4D005E73AB /* Preview Content */,
 			);
@@ -265,7 +270,7 @@
 			};
 			buildConfigurationList = E2B2A4DF2AE16A4C005E73AB /* Build configuration list for PBXProject "Project Iris" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = "zh-Hans";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -298,7 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B2A4F52AE16A4D005E73AB /* Preview Assets.xcassets in Resources */,
-				E29E8C0F2AE3917B007019F5 /* Localizable.strings in Resources */,
+				E25EA8332B6C013500BFEC6E /* Localizable.xcstrings in Resources */,
 				E2B2A4F22AE16A4D005E73AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,9 +330,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B2A4F02AE16A4C005E73AB /* ContentView.swift in Sources */,
+				E25EA8352B6C028200BFEC6E /* AboutView.swift in Sources */,
 				E20406C12AE3A62600A740B2 /* SettingsView.swift in Sources */,
 				E20406BF2AE3A0FF00A740B2 /* PasscodeView.swift in Sources */,
 				E20406C32AE3A83000A740B2 /* HistoryView.swift in Sources */,
+				E25EA8312B6BEC0B00BFEC6E /* BookmarksView.swift in Sources */,
 				E2B2A4EE2AE16A4C005E73AB /* Project_IrisApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,18 +375,6 @@
 			targetProxy = E2B2A5052AE16A4D005E73AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E29E8C112AE3917B007019F5 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E29E8C102AE3917B007019F5 /* en */,
-				E29E8C122AE3918F007019F5 /* zh-Hans */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E2B2A50C2AE16A4D005E73AB /* Debug */ = {
@@ -516,7 +511,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Arctic.Project-Iris.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -546,7 +541,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Arctic.Project-Iris.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -567,7 +562,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2349P84DA3;
 				INFOPLIST_KEY_CFBundleDisplayName = "Project Iris";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Arctic.Project-Iris";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -583,7 +578,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2349P84DA3;
 				INFOPLIST_KEY_CFBundleDisplayName = "Project Iris";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Arctic.Project-Iris";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
