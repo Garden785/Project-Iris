@@ -23,8 +23,6 @@ struct AboutView: View {
                         .navigationTitle("About")
                     AboutCredits()
                         .navigationTitle("About.credits")
-//                    OpenSourceView()
-//                        .navigationTitle("开源组件许可")
                 }
             }
         }
