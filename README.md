@@ -27,5 +27,16 @@ Open-source version do not provide Carina Feedback.
 - Carina反馈               Carina Feedback
 
 ## 语言 Languages
-- 简体中文 Simplified Chinese
-- 英文 English
+*Total of 10 Languages / 共计10门语言*
+- عَرَبيّ / Arabic
+- English
+- Français / French
+- 日本語 / Japanese
+- 한국어 / Korean
+- 简体中文 / Simplified Chinese
+- Castellano / Spanish
+- Русский / Russian
+- ภาษาไทย / Thai
+- Người Việt Nam / Vietnamese
+
+  
