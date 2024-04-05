@@ -37,6 +37,6 @@ Open-source version do not provide Carina Feedback.
 - Русский / Russian
 - ภาษาไทย / Thai
 - Người Việt Nam / Vietnamese
-- - عَرَبيّ / Arabic
+- عَرَبيّ / Arabic
 
   
