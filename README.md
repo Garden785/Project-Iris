@@ -28,7 +28,6 @@ Open-source version do not provide Carina Feedback.
 
 ## 语言 Languages
 *Total of 10 Languages / 共计10门语言*
-- عَرَبيّ / Arabic
 - English
 - Français / French
 - 日本語 / Japanese
@@ -38,5 +37,6 @@ Open-source version do not provide Carina Feedback.
 - Русский / Russian
 - ภาษาไทย / Thai
 - Người Việt Nam / Vietnamese
+- - عَرَبيّ / Arabic
 
   
