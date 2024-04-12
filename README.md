@@ -28,8 +28,8 @@ https://apps.apple.com/cn/app/project-iris/id6477305403?l=en-GB
 ## Languages 语言
 *Total of 12 Languages / 共计12门语言*
 - English
-- German / German
-- Italian / Italian
+- German / Deutsch
+- Italian / Italiano
 - Français / French
 - 日本語 / Japanese
 - 한국어 / Korean
