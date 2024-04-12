@@ -5,30 +5,31 @@ A simple watchOS browser, created by @ThreeManager785(@Atlantic75).
 
 Some of the part is learned from Darock Browser, allowed by @WindowsMEMZ 
 
-Thanks for @WindowsMEMZ for guiding me, and thank for everyone who use Iris.
+Thanks for @WindowsMEMZ for guiding me, thanks for @Linecom for providing ICP Filling Number, and thank for everyone who use Iris.
 
 https://apps.apple.com/cn/app/project-iris/id6477305403?l=en-GB
 
-开源版本不提供Carina反馈。
-Open-source version do not provide Carina Feedback.
-
 *ThreeManager785's First Project*
 
-## 功能 Features
-- 自动分辨关键词和URL       Distinguish keywords and URL
-- 添加书签                 Add Bookmarks
-- 无痕浏览                 Private Mode
-- 历史记录                 History
-- 选择搜索引擎              Select search engine
-- 自定义搜索引擎            Customize search engine
-- 置顶按钮位置              Pin buttons
-- 设置历史记录（与书签）密码  Set password for history (and bookmarks)
-- 自定义长按搜索按钮         Customize long press search button action
-- Carina反馈               Carina Feedback
+## Features 功能
+- Distinguish keywords & URL / 分辨关键词与URL
+- Manage bookmarks / 管理书签
+- Browse with Private Mode / 无痕浏览
+- Record History / 记录历史
+- Select search engine / 选择搜索引擎
+- Customize search engine / 自定义搜索引擎
+- Pin buttons / 置顶按钮位置
+- Lock history (and bookmarks) / 锁定历史记录（与书签）
+- Customize long press search button action / 自定义长按搜索按钮
+- Send feedback with Carina / 通过Carina反馈
+- Supports 12 languages / 兼容12种语言
+- Optimizes for accessibility / 为辅助功能优化
 
-## 语言 Languages
-*Total of 10 Languages / 共计10门语言*
+## Languages 语言
+*Total of 12 Languages / 共计12门语言*
 - English
+- German / German
+- Italian / Italian
 - Français / French
 - 日本語 / Japanese
 - 한국어 / Korean
